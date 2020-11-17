@@ -5,8 +5,7 @@ import MenuItem from "./MenuItem";
 
 class Menu extends Component {
     state = {
-        dishes: DISHES,
-
+        dishes: DISHES
     }
 
     render() {
@@ -20,9 +19,9 @@ class Menu extends Component {
             );
         });
         return (
-            <div className="container">>
+            <div className="container">
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col-4">
                         {menu}
                     </div>
                 </div>
